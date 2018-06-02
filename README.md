@@ -1,5 +1,6 @@
 # stopped_container_check
-Repo for custom nagios checks, ready to be deployed. 
+This checks if we have any stopped docker containers. Exits with a critical message if any of the containers are stopped and returns a 0 exit code if everything is running. 
+
 Requirements:
 
 1. Python3
